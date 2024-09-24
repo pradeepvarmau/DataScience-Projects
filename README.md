@@ -18,7 +18,7 @@ This project uses both collaborative filtering and content-based methods to reco
 
 **Tech Stack**: Python, pandas, scikit-learn, TF-IDF, KNN
 
-[View Project](#)
+[View Project](https://github.com/pradeepvarmau/DataScience-Projects/tree/main/movie_recommendation)
 
 ---
 
@@ -30,7 +30,7 @@ In this project, I built a classification model to predict loan repayment status
 - Algorithms: Decision Tree, Logistic Regression, Random Forest, AdaBoost, SVM
 - Techniques: K-Fold Cross Validation, GridSearchCV
 
-[View Project](#)
+[View Project]((https://github.com/pradeepvarmau/DataScience-Projects/tree/main/Predicting%20Loan%20Repayment))
 
 ---
 
