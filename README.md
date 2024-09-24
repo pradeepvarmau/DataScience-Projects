@@ -16,8 +16,7 @@ I am a data enthusiast with a passion for solving complex problems using data-dr
 ### 1. Movie Recommendation System
 This project uses both collaborative filtering and content-based methods to recommend movies based on user preferences. It demonstrates an understanding of machine learning and data wrangling techniques in the context of recommendation engines.
 
-**Tech Stack**: Python, pandas, scikit-learn, TF-IDF, KNN
-
+**Tech Stack**: Python, pandas,numpy,seaborn,matplotlib, scikit-learn
 [View Project](https://github.com/pradeepvarmau/DataScience-Projects/tree/main/movie_recommendation)
 
 ---
