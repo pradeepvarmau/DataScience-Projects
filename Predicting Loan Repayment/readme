@@ -1,0 +1,86 @@
+# README: Loan Repayment Outcomes Dataset
+
+## Overview
+
+This dataset contains information on loans issued to borrowers, with the aim of predicting loan repayment outcomes. The primary target variable is whether a loan was fully paid or not. This analysis focuses on the application of various machine learning algorithms to classify loans into two categories: fully paid and not fully paid.
+
+## Dataset Description
+
+The dataset includes the following columns:
+
+| Column Name         | Description                                                                                                                                     |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| `credit.policy`     | A binary variable indicating whether a customer meets the credit policy criteria (1 for yes, 0 for no).                                        |
+| `purpose`           | The purpose for which the loan was taken (e.g., debt consolidation, credit card, small business).                                              |
+| `int.rate`          | The interest rate of the loan.                                                                                                                 |
+| `installment`       | The monthly installment payment amount.                                                                                                        |
+| `log.annual.inc`    | The natural logarithm of the annual income of the borrower.                                                                                     |
+| `dti`               | The debt-to-income ratio of the borrower (amount of debt divided by annual income).                                                             |
+| `fico`              | The FICO credit score of the borrower.                                                                                                         |
+| `days.with.cr.line` | The number of days the borrower has had a credit line.                                                                                         |
+| `revol.bal`        | The revolving balance of the borrower (amount unpaid at the end of the credit card billing cycle).                                              |
+| `revol.util`        | The revolving utilization rate (the amount of credit line used relative to total credit available).                                             |
+| `inq.last.6mths`    | The number of inquiries made by creditors in the last 6 months.                                                                                 |
+| `delinq.2yrs`       | The number of times the borrower has been delinquent on payments in the last 2 years.                                                         |
+| `pub.rec`           | The number of derogatory public records of the borrower (bankruptcy filings, tax liens, or judgments).                                         |
+| `not.fully.paid`    | A binary variable indicating whether the borrower hasn't fully paid the loan (1 for yes, 0 for no) - **Target Variable**.                       |
+
+## Usage
+
+This dataset can be used for:
+
+- Building predictive models to classify loan repayment outcomes.
+- Evaluating the performance of different machine learning algorithms.
+- Analyzing the impact of various borrower characteristics on loan repayment.
+
+## Machine Learning Algorithms
+
+Various machine learning algorithms can be applied to this dataset, including but not limited to:
+
+- Logistic Regression
+- Decision Trees
+- Random Forest
+- Gradient Boosting Machines
+- Support Vector Machines
+- Neural Networks
+
+## Getting Started
+
+To work with this dataset, clone the repository and use the provided Jupyter notebooks or Python scripts to explore, visualize, and model the data.
+
+```bash
+git clone https://github.com/yourusername/loan-repayment-outcomes.git
+cd loan-repayment-outcomes
+```
+
+## Requirements
+
+You may need the following Python packages to run the analysis:
+
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+
+You can install these packages using pip:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
+
+## License
+
+This dataset is provided under the MIT License. Please feel free to use it for educational and research purposes.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
+
+## Contact
+
+For any questions or inquiries, please contact [Pradeep Varma](pradeepvarmau99@gmail.com).
+
+---
+
+Feel free to customize the sections and information as necessary!
